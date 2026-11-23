@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Uma página didática e original para demonstrar áreas semânticas, navegação por seções e conteúdo organizado.">
+    <title>
+      Mapa da Página
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js">
+    </script>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="marca" href="index.html">
+        PROJETO
+        <span>
+          ·
+        </span>
+        Mapa
+      </a>
+      <span class="selo">
+        DEMONSTRAÇÃO LOCAL
+      </span>
+    </header>
+    <main>
+      <section class="abertura">
+        <p class="sobretitulo">
+          ESTUDO INTERATIVO · JAVASCRIPT
+        </p>
+        <h1>
+          Mapa da Página
+        </h1>
+        <p class="introducao">
+          Uma página didática e original para demonstrar áreas semânticas, navegação por seções e conteúdo organizado.
+        </p>
+      </section>
+      <nav class="painel" aria-label="Navegação da página">
+        <div class="acoes">
+          <a href="#proposito">
+            Propósito
+          </a>
+          <a href="#etapas">
+            Etapas
+          </a>
+          <a href="#contato">
+            Contato
+          </a>
+        </div>
+      </nav>
+      <section id="proposito" class="cartao">
+        <h2>
+          Propósito
+        </h2>
+        <p>
+          Esta demonstração separa cabeçalho, navegação, conteúdo principal e rodapé em regiões fáceis de reconhecer.
+        </p>
+      </section>
+      <section id="etapas" class="painel">
+        <h2>
+          Etapas de um projeto simples
+        </h2>
+        <ol class="lista">
+          <li>
+            Defina o problema em uma frase.
+          </li>
+          <li>
+            Estruture o conteúdo para leitura clara.
+          </li>
+          <li>
+            Valide a experiência em telas pequenas.
+          </li>
+        </ol>
+      </section>
+      <section id="contato" class="cartao">
+        <h2>
+          Compartilhe uma sugestão
+        </h2>
+        <button id="sugestao">
+          Ver mensagem
+        </button>
+        <p id="mensagem" aria-live="polite">
+        </p>
+      </section>
+    </main>
+    <footer>
+      Projeto demonstrativo independente · dados fictícios · sem serviços externos
+    </footer>
+  </body>
+</html>
+
